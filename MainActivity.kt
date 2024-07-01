@@ -77,8 +77,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun race(motorcycle1: Motorcycle, motorcycle2: Motorcycle): Motorcycle {
-        // implement your racing logic here
-        // for simplicity, let's say the motorcycle with the higher engine size wins
+
+    
         return if (motorcycle1.engineSize > motorcycle2.engineSize) motorcycle1 else motorcycle2
     }
 
